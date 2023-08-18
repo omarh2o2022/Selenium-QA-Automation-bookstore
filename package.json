@@ -1,0 +1,20 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bookstore1.spec.js",
+  "scripts": {
+    "test": "mocha tests/test.js --timeout 50000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^116.0.0",
+    "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
