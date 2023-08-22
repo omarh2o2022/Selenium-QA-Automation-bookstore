@@ -4,7 +4,8 @@
   "description": "",
   "main": "bookstore1.spec.js",
   "scripts": {
-    "test": "mocha tests/test.js --timeout 50000"
+    "test": "mocha tests/test.js --timeout 50000",
+    "test2": "mocha tests/test2.js --timeout 50000"
   },
   "keywords": [],
   "author": "",
